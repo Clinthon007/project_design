@@ -1,0 +1,52 @@
+body {
+    margin: 0%;
+}
+
+.specs h1{
+    color: #8b4513;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    
+}
+.graf{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #8b4513;
+}
+.work{
+    background-color: lightpink;
+    height: 75%;
+    width: 75%;
+    padding: 30px;
+    color: #8b4513;
+    margin-bottom: 0%;
+
+}
+.overall{
+    display: flex;
+ line-height: 40px;
+}
+.overall ul{
+    list-style: none;
+}
+.specs{
+margin: 15px;
+height: 65%;
+padding: 30px;
+}
+.imgs{
+    border-radius: 50%;
+    margin: 15px;
+}
+.overall ul ::before{content: "\2022"; color: #8b4513;
+width: 2em;
+margin-left: -3em;
+padding: 5%;}
+.work list{
+    list-style: none;
+}
+.edus{
+    /* line-height: 50px; */
+}

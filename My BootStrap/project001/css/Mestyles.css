@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.overall{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0.5,0,0.5)40%, rgba(0,0.5,0,0.5)40%), url(https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    background: rosybrown;
+    color: mistyrose;
+    font-size: 41px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin: 8px;
+    width: 5px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+list-style: none;
+margin-left: 62px;
+margin-top: 27px;
+font-size: 17px; 
+}
+
+ul li a{
+text-decoration: none;
+color: orange;
+font-family: arial;
+font-weight: bold;
+transition: 0.3s ease-in-out;    
+}
+
+ a:hover{
+ background-color: red; 
+ cursor: pointer;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: whitesmoke;
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: whitesmoke;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;  
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.content{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    color: orange;
+    position: relative;
+}
+
+.content .par{
+   /* padding-left: 20px; */
+   padding-bottom: 25px;
+   font-family: arial;
+   letter-spacing: 1.2px;
+   line-height: 40px;
+   color: white;
+}
+
+span{
+    color: wheat;
+    text-decoration: underline;
+}
+
+.content h1{
+ color: #7C3E;
+ font-family: a;  
+ font-size: 40px;
+ padding-right: 60%;
+ margin-top: 9px;
+ letter-spacing: 2px;
+line-height: 55px;
+}
+
+.cont{
+    width: 190px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    /* margin-left: 20px; */
+    border-radius: 10px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.content .cont a{
+    color: white;
+text-decoration: none;
+transition: 0.3s ease;
+}
+
+.cont:hover{
+    background-color: powderblue;
+    cursor: pointer;
+}
+
+.form{
+ width: 250px;
+ height: 350px;
+ background: linear-gradient(to top, rgba(0,0.5,0,0.5)40%, rgba(0,0.5,0,0.5)40%);
+ position: absolute;
+ top: 25%;
+ left: 800px;
+ border-radius: 10px;
+ padding: 25px;
+}
+
+.form h2{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background-color: orange;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 10px;
+}
+ h2:hover{
+    background-color: powderblue;
+    cursor: pointer;
+ }
+
+ .form input{
+   width: 240px;
+   height: 35px;
+   background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+ }
+
+ .form input:focus{
+    outline: none;
+ }
+
+ ::placeholder{
+    color: white;
+    font-family: arial;
+ }
+
+ .btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.btnn:hover{
+    background-color: powderblue;
+}
+
+.form .link{
+    font-family: arial;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sos{
+    
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
